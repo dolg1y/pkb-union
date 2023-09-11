@@ -1,0 +1,388 @@
+@font-face {
+    font-family: "Kreadon";
+    src: url(../font/Kreadon.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+body {
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 14px;
+}
+img {
+    max-width: 100%;
+}
+.wrapper {
+    max-width: 100%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.header__logo {
+    max-width: 100%;
+    height: 100%;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+.logo__name {
+    color: var(--2, #444);
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; /* 133.333% */
+    margin-left: 27px;
+}
+.header__calc {
+}
+.calc__icon {
+    display: flex;
+}
+.calc__name {
+    color: var(--2, #444);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    margin-left: 10px;
+    border-bottom: 1px solid #CF455C;;
+}
+.header__phone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.phone__telegram {
+}
+.phone__whatsapp {
+    margin: 0px 20px;
+}
+.phone__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text__number a {
+    color: var(--5, #CF455C);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    margin: 0px 0px -35px 0px;
+    text-decoration: none;
+}
+.text__call {
+    color: var(--2, #444);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+    text-transform: uppercase;
+    margin: -30px 0px 0px 0px;
+}
+.section__welcome {
+    display: flex;
+}
+.welcome__text {
+    max-width: 53%;
+}
+.text__title {
+    color: var(--5, #CF455C);
+    font-family: Kreadon;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 104px; /* 130% */
+    text-transform: uppercase;
+}
+.text__subtitle {
+    color: var(--2, #444);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+}
+.text__coast {
+    margin-top: 70px;
+    display: inline-flex;
+    padding: 35px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--2, #444);
+    color: var(--3, #FBFBFB);
+    font-family: Kreadon;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px; /* 125% */
+    text-transform: uppercase;
+}
+.welcome__bg {
+    display: none;
+    max-width: 38px;
+}
+.bg__img {
+    background-image: url(../src/img/welcome/background.png);
+}
+.section__why-best {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.why-best__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.title__main {
+    color: var(--2, #444);
+    font-family: Kreadon;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104px; /* 130% */
+    text-transform: uppercase;
+}
+.title__subtitle {
+    color: var(--2, #444);
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+    text-transform: uppercase;
+}
+.block__number {
+    font-family: Kreadon;
+    font-size: 300px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 300px; /* 100% */
+    text-transform: uppercase;
+    color: #CF455C;
+    position: relative;
+    top: -40vw;
+    left: 10%;
+}
+.block__img {
+    position: relative;
+    margin: -81% 0px 0px 0px;
+    z-index: 18;
+    display: flex;
+    align-items: flex-end;
+}
+.img__text {
+    color: var(--2, #444);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 100% */
+    text-transform: uppercase;
+    margin-top: 14%;
+}
+.why-best__items {
+    margin-top: 100px;
+}
+.hr {
+    transform: rotate(8.931deg);
+    width: 100%;
+    color: #CF455C;
+}
+.section__build {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.build__title {
+    color: var(--2, #444);
+    font-family: Kreadon;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104px; /* 130% */
+    text-transform: uppercase;
+}
+.title__red-border {
+    border-bottom: 10px solid #CF455C;
+}
+.build__slider {
+    height: 850px;
+}
+.img__slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.build__button {
+    margin-top: 50px;
+    display: inline-flex;
+    padding: 35px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    border: 5px solid var(--1, #FFDD67);
+    color: var(--2, #444);
+    font-family: Kreadon;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 125% */
+    text-transform: uppercase;
+}
+.main {
+    margin: 0 6%;
+}
+.slider__arrow {
+    display: flex;
+    margin: -430px 0px;
+    /* position: absolute; */
+    top: 45%;
+    justify-content: space-between;
+}
+.arrow-left {
+}
+.arrow-right {
+}
+.section__sell {
+    background: var(--2, #444);
+    height: 640px;
+    margin-top: 150px;
+}
+.sell__content {
+    background-image: url(../src/img/sell/background.png);
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content__title {
+    color: var(--3, #FBFBFB);
+    text-align: center;
+    font-family: Kreadon;
+    font-size: 73px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104px; /* 130% */
+    text-transform: uppercase;
+}
+.content__button {
+    display: inline-flex;
+    padding: 35px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--3, #FBFBFB);
+    font-family: Kreadon;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 125% */
+    text-transform: uppercase;
+    background: var(--5, #CF455C);
+}
+.section__advantages {
+    margin-top: 140px;
+}
+.advantages__title {
+    color: var(--2, #444);
+    font-family: Kreadon;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104px; /* 130% */
+    text-transform: uppercase;
+}
+.advantages__block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.block__item {
+    display: flex;
+    border: 1px solid yellow;
+    flex-direction: column;
+    align-items: center;
+    width: 423px;
+}
+.item__title {
+    color: var(--2, #444);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 100% */
+    text-transform: uppercase;
+}
+.item__description {
+    display: flex;
+    align-items: center;
+}
+.description__text {
+    color: var(--2, #444);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.item__img {
+    margin-top: 60px;
+    max-width: 280px;
+}
+.section__diagram {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.diagram__title {
+    color: var(--2, #444);
+    font-family: Kreadon;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104px; /* 130% */
+    text-transform: uppercase;
+}
+.diagram__subtitle {
+    color: var(--2, #444);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px; /* 116.667% */
+}
+.diagram__info {
+    max-width: 50%;
+}
+.diagram__img {
+    margin-top: 100px;
+}
+.section__feature {
+    margin-top: 100px;
+    background: var(--2, #444);
+    height: 1148px;
+}
+.feature__title {
+    margin-top: 60px;
+    color: var(--1, #FFDD67);
+    font-family: Kreadon;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 104px; /* 130% */
+    text-transform: uppercase;
+}
